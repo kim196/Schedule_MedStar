@@ -3,7 +3,7 @@
 This project was created to solve a real workflow issue at **MedStar**.  
 Originally, the scheduling team only had access to a large Excel spreadsheet showing who was working, when, and on what type of shift.  
 
-Each day, someone had to **manually review that spreadsheet**, **write out a daily assignment sheet**, and **assign “P” (Point) and “W”** roles — ensuring that, over time, every provider received an equal number of each assignment.  
+Each day, someone had to **manually review that spreadsheet**, **write out a daily assignment sheet**, and **assign “P” (Point) and “W”** roles, ensuring that over time, every provider received an equal number of each assignment.  
 
 However, there were many constraints:
 - Certain shifts (like **OT**, **FSH**, or **PTO**) could not be assigned P or W  
@@ -12,7 +12,7 @@ However, there were many constraints:
 
 This tool automates that entire process.
 
-It reads the master **Excel schedule**, applies all assignment rules, and automatically:
+It reads the **Excel schedule.xlsx**, applies all assignment rules, and automatically:
 - Balances **P/W (Point / W)** roles fairly across providers  
 - Exports a **CSV** with all precomputed P/W assignments  
 - Generates **daily `.docx` assignment sheets** from a Word template
