@@ -1,11 +1,17 @@
-# NP/PA Schedule Processor
+# 🩺 NP/PA Schedule Processor
 
-A Python utility to parse an Excel staff schedule and automatically produce:
+A Python tool that automates scheduling for NP/PA staff.  
+It reads from an Excel schedule and:
 
-- A CSV of precomputed **P/W (Point / W)** assignments across a date range  
-- Populated **NP/PA assignment `.docx` files** for individual dates using a Word template  
+- Balances **Point (P)** and **W** assignments fairly across weekdays  
+- Exports a CSV of all P/W assignments  
+- Generates daily NP/PA assignment `.docx` files from a Word template  
 
-This project automates scheduling for NP/PA staff by balancing point and W assignments fairly across weekdays.
+Includes two main scripts:
+- **Compute_PW.py** → Precomputes P/W assignments for a date range  
+- **Filled_Assignment.py** → Fills out the NP/PA assignment template for a given date  
+
+Built with **pandas** and **python** to make staff scheduling faster, more accurate, and easier to manage.
 
 ---
 
@@ -19,4 +25,12 @@ This repository includes two main components:
 ---
 
 ## 📁 Project Structure
+
+Schedule.xlsx # Input Excel schedule
+NPPA Assignments.docx # Word template
+Compute_PW.py # Precompute P/W assignments
+Filled_Assignment.py # Generate DOCX for a single date
+precomputed_pw_assignments.csv # Output CSV
+Created_Docs/ # Folder for generated DOCX files
+README.md # This file
 
