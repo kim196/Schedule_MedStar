@@ -1,4 +1,4 @@
-# 🩺 NP/PA Schedule Processor
+# NP/PA Schedule Processor
 
 A Python tool that automates scheduling for NP/PA staff.  
 It reads from an Excel schedule and:
@@ -15,7 +15,7 @@ Built with **pandas** and **python** to make staff scheduling faster, more accur
 
 ---
 
-## 🧠 Overview
+## Overview
 
 This repository includes two main components:
 
@@ -24,7 +24,7 @@ This repository includes two main components:
 
 ---
 
-## 📁 Project Structure
+## File Structure
 
 Schedule.xlsx # Input Excel schedule
 NPPA Assignments.docx # Word template
