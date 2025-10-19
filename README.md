@@ -19,7 +19,7 @@ Built with **pandas** and **python** to make staff scheduling faster, more accur
 
 This repository includes two main components:
 
-1. **`Compute_PW.py`** – scans the Excel schedule across a date range and produces `precomputed_pw_assignments.csv`  
+1. **`Compute_PW.py`** – scans the Excel schedule across a date range and produces `precomputed_pw_assignments.csv`, utilizing an algorithm that will assign P-Point person and W - a person assigned with a doctor that day 
 2. **`Filled_Assignment.py`** – reads the schedule for a single date and fills a Word template (`NPPA Assignments.docx`), producing daily `.docx` files in the `Created_Docs` folder
 
 ---
